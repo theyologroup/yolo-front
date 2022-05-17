@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/yolo-front/static/css/main.19501eaf.css",
+    "main.js": "/yolo-front/static/js/main.20b0062b.js",
+    "static/media/ServicesImage.png": "/yolo-front/static/media/ServicesImage.f13ceed343f9d2adbecd.png",
+    "index.html": "/yolo-front/index.html",
+    "main.19501eaf.css.map": "/yolo-front/static/css/main.19501eaf.css.map",
+    "main.20b0062b.js.map": "/yolo-front/static/js/main.20b0062b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19501eaf.css",
+    "static/js/main.20b0062b.js"
+  ]
+}
