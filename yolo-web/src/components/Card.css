@@ -1,0 +1,16 @@
+.card-container {
+    width: 350px;
+    height: fit-content;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-link {
+    padding: 10px;
+}
