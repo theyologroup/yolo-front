@@ -1,14 +1,20 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-function App() {
-    return ( <
-        div lcassName = "App" >
-        <
-        h1 > YOLO Welcome Page! < /h1> <
-        /div>
+export default function App() {
+    return (
+        <>
+            <Router>
+                <Navbar />
+                <Routes>
+                    <Route exact path="/" element={<Home />}></Route>
+                </Routes>
+                <Footer />
+            </Router>
+        </>
     );
 }
-
-export default App;

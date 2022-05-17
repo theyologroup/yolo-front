@@ -1,0 +1,29 @@
+.hero-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.hero-content {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 80%;
+    width: 40%;
+    padding: 20px;
+}
+
+.hero-btn {
+    display: flex;
+    grid-gap: 30px;
+}
+
+.hero-image {
+    display: grid;
+    width: 60%;
+    border-style: solid;
+}
+
+.hero-image img {
+    width: 100%;
+}
